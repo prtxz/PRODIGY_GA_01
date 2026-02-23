@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model outputs & training artifacts
+outputs/final_model/
+outputs/generated_samples/
+outputs/runs/
+logs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training & tensorboard logs
+events.out.tfevents.*
+runs/
+tensorboard/
+*.log
+
+# Data (keep raw data structure, but ignore large processed files)
+data/processed/
+*.json
+*.jsonl
+
+# Temporary files
+.cache/
+.tmp/
+*.tmp
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Project-specific
+*.yaml.bak
+config.backup.json
